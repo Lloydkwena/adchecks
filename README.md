@@ -7,7 +7,7 @@ The Ubuntu apache I'm not using it. I have XAMP-linux-x64-7.2.11-0 installed. Wh
 to intergrated PHP, MySQL, and local server (127.0.0.1).
 
 On Ubuntu 18.04 server. Simply create a new folder and clone the project from GitHub (
-https://github.com/Lloydkwena/adcheck.git ). You may use any text editor to open the folder. I
+https://github.com/Lloydkwena/adchecks.git ). You may use any text editor to open the folder. I
 prefer Sublime-Text.
 
 I have used composer to install promise based data at Axios. And npm to install ReactJs for front-
