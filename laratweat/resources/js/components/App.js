@@ -68,6 +68,16 @@ class App extends Component {
                                                 required
                                             />
                                         </div>
+                                        <div className="form-group">
+                                           <lable for="active">Gategories</lable>
+                                           <select className="form-control" name="active" id="active">
+                                           <option value="" disabled>Select log Gategory</option>
+                                           <option value="1">IT</option>
+                                           <option value="2">Accounts</option>
+                                           <option value="3">Sales</option>
+                                           </select>
+                                        </div>
+
                                         <input type="submit" value="Post" className="form-control" />    
                                     </form>
                                 </div>    

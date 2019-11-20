@@ -21,7 +21,13 @@ class CreateLogsTable extends Migration
             $table->integer('user_id')->unsinged();
             $table->string('body', 140);
             $table->timestamps();
+            /********************************
+            * To select gatergories by 1,2,3
+            * My apologies run out of time to fully implement this functionality
+            * So we only have empty select-box on front-end
 
+            * $table->integer('active');
+            ********************************/
             $table->bigIncrements('id');
             $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
         });
